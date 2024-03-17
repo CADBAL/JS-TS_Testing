@@ -1,3 +1,9 @@
-h2, div, p, span {
-  border: 1px solid;
+p {
+  width: 10em;
+  height: 10em;
+}
+
+.test {
+  height:20rem;
+  width: 100rem;
 }
