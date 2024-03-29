@@ -1,11 +1,11 @@
 def test():
 
-    i = 0
-    number = int(input())
+    t: int = 10
 
-    while i <= number:
-        t = number + i
-        i = i + 11
+    if (t == 10):
+        x: int = 5
+    
+    print(x)
     
     print(t)
 
