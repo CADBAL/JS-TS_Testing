@@ -1,24 +1,13 @@
-// program showing block-scoped concept
-// global variable
-let a = 'Hello';
+// constructor function
+function Person () {
+    this.name = 'John',
+    this.age = 23,
 
-function greet() {
-
-    // local variable
-    let b = 'World';
-
-    console.log(a + ' ' + b);
-
-    if (b == 'World') {
-
-        // block-scoped variable
-        let c = 'hello';
-
-        console.log(a + ' ' + b + ' ' + c);
+    this.get_name = function() {
+        return this.name
     }
-
-    // variable c cannot be accessed here
-    console.log(a + ' ' + b + ' ' + c);
 }
 
-greet();
+let person1 = new Person()
+
+person1.get_name()
