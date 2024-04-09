@@ -1,12 +1,26 @@
-def test():
+class Character:
+  def __init__(self, health, mana, strength, agility):
+    self.health = health
+    self.age = mana
+    self.strength = strength
+    self.agility = agility
 
-    i = 0
-    number = int(input())
 
-    while i <= number:
-        t = number + i
-        i = i + 11
-    
-    print(t)
+peter = Character(10, 10, 10, 10)
 
-test()
+#print(peter.health)
+
+
+
+
+numerator: int = 100
+denominator: str = "a"
+
+
+try:
+     print(numerator + denominator)
+
+except:
+    print('An error caught'); 
+    print("Error message:")
+
