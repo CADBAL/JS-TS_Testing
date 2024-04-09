@@ -13,14 +13,3 @@ peter = Character(10, 10, 10, 10)
 
 
 
-numerator: int = 100
-denominator: str = "a"
-
-
-try:
-     print(numerator + denominator)
-
-except:
-    print('An error caught'); 
-    print("Error message:")
-
