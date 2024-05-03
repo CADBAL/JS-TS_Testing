@@ -1,13 +1,19 @@
-// constructor function
-function Person () {
-    this.name = 'John',
-    this.age = 23,
-
-    this.get_name = function() {
-        return this.name
-    }
+/*function test(args) {
+    console.log(args);
 }
 
-let person1 = new Person()
+test(3); // [3]
+test(4, 5, 6); // [4, 5, 6]
 
-person1.get_name()
+function test2() {
+    this.name: "test"
+} */
+
+let person = {
+    name: "steve",
+    "5": "john"
+}
+
+console.log(person.name)
+
+console.log(person["5"])
